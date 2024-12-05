@@ -1,7 +1,7 @@
 +Nome: Gianlucca Ávila Pache de Paiva
 
 +Graduação: Estudante na Universidade Federa De Juiz de Fora graduando em Sistema de informção com ingles do intermediário.
-Lingueagens trabalhadas: ![alt text](image.png), ![alt text](image-1.png), ![alt text](image-2.png), ![alt text](image-3.png), ![alt text](image-4.png).
+Lingueagens trabalhadas: ![alt text](image.png), ![alt text](image-1.png), ![alt text](image-2.png), ![alt text](image-3.png), ![alt text](image-5.png).
 
 +Meus trabalhos: Nada de maneira empresarial, porém já realizei projetos particulares desde alterações de textos viua css, html ou por sistema em Lógica no javascripts até testes tdd e uso de ias generativas com o python tanto Gemini quanto ChatGpt desde aplicações simples como criação de estrutura de elaboração de questões para uso acadêmico até chatbot. Além disso já ultilizei e conheço o uso dos sistemas operacionais Linux e Windows e realizei automaçoes de teste E2E.
 
@@ -18,7 +18,7 @@ Lingueagens trabalhadas: ![alt text](image.png), ![alt text](image-1.png), ![alt
 Name: Gianlucca Ávila Pache de Paiva
 
 Degree: Student at Universidade Federal de Juiz de Fora, majoring in Information Systems with intermediate English.
-Languages worked: ![alt text](image.png), ![alt text](image-1.png), ![alt text](image-2.png), ![alt text](image-3.png), ![alt text](image-4.png).
+Languages worked: ![alt text](image.png), ![alt text](image-1.png), ![alt text](image-2.png), ![alt text](image-3.png), ![alt text](image-5.png).
 
 My Work: No corporate experience yet, but I have completed personal projects ranging from text changes via CSS, HTML, or system logic in JavaScript, to TDD testing and the use of generative AIs with Python, such as Gemini and ChatGPT. These projects include simple applications like creating question development structures for academic use and chatbots. Additionally, I have used and am familiar with Linux and Windows operating systems and have performed E2E test automation.
 
