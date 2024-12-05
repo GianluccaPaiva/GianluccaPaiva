@@ -1,3 +1,5 @@
+#Versão português
+
 +Nome: Gianlucca Ávila Pache de Paiva
 
 +Graduação: Estudante na Universidade Federa De Juiz de Fora graduando em Sistema de informção com ingles do intermediário.
@@ -15,6 +17,9 @@ Lingueagens trabalhadas:
 +Visão futura: Meus objetivos são simples, mas não simplórios. Tenho como objetivo alcançar uma estabilidade financeira através dessa profissão, além de continuar evoluindo os aspectos pessoais e profissionais. Ademais, quero me aprofundar em mais linguagens de computação e alcançar conhecimentos extensivos nesse ramo entendendo mais a visão de mercado e a lógica aplicada nesse aspecto.
 
 +Projetos: O meu Github logo apresentará mais projetos
+
+
+#𝗘𝗻𝗴𝗹𝗶𝘀𝗵 𝘃𝗲𝗿𝘀𝗶𝗼𝗻
 
 Name: Gianlucca Ávila Pache de Paiva
 
