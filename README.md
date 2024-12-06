@@ -1,4 +1,4 @@
-#Versão português
+##Versão português
 
 +Nome: Gianlucca Ávila Pache de Paiva
 
@@ -19,7 +19,7 @@ Lingueagens trabalhadas:
 +Projetos: O meu Github logo apresentará mais projetos
 
 
-#𝗘𝗻𝗴𝗹𝗶𝘀𝗵 𝘃𝗲𝗿𝘀𝗶𝗼𝗻
+##𝗘𝗻𝗴𝗹𝗶𝘀𝗵 𝘃𝗲𝗿𝘀𝗶𝗼𝗻
 
 Name: Gianlucca Ávila Pache de Paiva
 
