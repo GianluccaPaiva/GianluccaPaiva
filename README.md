@@ -17,7 +17,7 @@
 
 Lingueagens trabalhadas: 
 ![alt text](image.png), 
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg"  width="40" height="40" />
           , ![alt text](image-2.png), ![alt text](image-3.png), ![alt text](image-4.png)..
 
 +Meus trabalhos: Nada de maneira empresarial, porém já realizei projetos particulares desde alterações de textos viua css, html ou por sistema em Lógica no javascripts até testes tdd e uso de ias generativas com o python tanto Gemini quanto ChatGpt desde aplicações simples como criação de estrutura de elaboração de questões para uso acadêmico até chatbot. Além disso já ultilizei e conheço o uso dos sistemas operacionais Linux e Windows e realizei automaçoes de teste E2E.
