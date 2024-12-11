@@ -34,7 +34,7 @@ Lingueagens trabalhadas:
 
 +Contras que preciso melhorar: Grande nível de anciedade, mas nada que trapalhe profissionalmente, mas presente devido a minha timidez. Além de foco exarcebado o quer por um lado aumenta minha proatividade, desfoco a hidratação. Pórem são pontos que já estou constantemente trabalhando para aprimorar.
 
-+Editor que utilizo: Vscode
++Editor que utilizo:    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" width="40" height="40"/>
 
 +Visão futura: Meus objetivos são simples, mas não simplórios. Tenho como objetivo alcançar uma estabilidade financeira através dessa profissão, além de continuar evoluindo os aspectos pessoais e profissionais. Ademais, quero me aprofundar em mais linguagens de computação e alcançar conhecimentos extensivos nesse ramo entendendo mais a visão de mercado e a lógica aplicada nesse aspecto.
 
@@ -70,7 +70,9 @@ Pros for Hiring: I have always been interested in development. I started learnin
 
 Cons I Need to Improve: High anxiety, though it doesn’t interfere professionally, is present due to my shyness. Additionally, I tend to focus excessively, which, while increasing my proactivity, sometimes causes a lack of attention to hydration. However, these are points I am constantly working on to improve.
 
-Editor I Use: VSCode
+Editor I Use: 
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" width="40" height="40"/>
+          
 
 Future Vision: My goals are simple, but not simplistic. I aim to achieve financial stability through this profession, while continuing to evolve both personally and professionally. Moreover, I want to deepen my knowledge in more programming languages and gain extensive knowledge in this field, understanding more about market perspectives and the logic applied in this area.
 
