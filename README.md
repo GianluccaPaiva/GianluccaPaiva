@@ -5,6 +5,7 @@
 +linkedin: www.linkedin.com/in/gianlucca-paiva-756045341
 
 +Graduação: Estudante na Universidade Federa De Juiz de Fora graduando em Sistema de informção com ingles do intermediário.
+
 Lingueagens trabalhadas: 
 ![alt text](image.png), ![alt text](image-1.png), ![alt text](image-2.png), ![alt text](image-3.png), ![alt text](image-4.png)..
 
