@@ -2,9 +2,7 @@
 
 +Nome: Gianlucca Ávila Pache de Paiva
 
-+linkedin: www.linkedin.com/in/gianlucca-paiva-756045341
-
-+Contato: <div>
++Contato/contact: <div>
 <a href="https://instagram.com/Ultrongian" target="_blank"><img loading="lazy" src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
 <a href="mailto:gianluccapaiva@gmail.com" target="_blank">
     <img loading="lazy" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white">
@@ -34,7 +32,8 @@ Lingueagens trabalhadas:
 
 +Contras que preciso melhorar: Grande nível de anciedade, mas nada que trapalhe profissionalmente, mas presente devido a minha timidez. Além de foco exarcebado o quer por um lado aumenta minha proatividade, desfoco a hidratação. Pórem são pontos que já estou constantemente trabalhando para aprimorar.
 
-+Editor que utilizo:    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" width="40" height="40"/>
++Editor que utilizo:    
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" width="40" height="40"/>
 
 +Visão futura: Meus objetivos são simples, mas não simplórios. Tenho como objetivo alcançar uma estabilidade financeira através dessa profissão, além de continuar evoluindo os aspectos pessoais e profissionais. Ademais, quero me aprofundar em mais linguagens de computação e alcançar conhecimentos extensivos nesse ramo entendendo mais a visão de mercado e a lógica aplicada nesse aspecto.
 
