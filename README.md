@@ -11,9 +11,9 @@
 </div>
 
 
-+Graduação: Estudante na Universidade Federa De Juiz de Fora graduando em Sistema de informção com ingles do intermediário.
++Graduação: Estudante na Universidade Federa De Juiz de Fora graduando em Sistemas de Informção com inglês avançado.
 
-Lingueagens trabalhadas:        
+Linguagens trabalhadas:        
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" width="40" height="40" />,
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg"  width="40" height="40" />
           , 
@@ -26,11 +26,11 @@ Lingueagens trabalhadas:
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg"   width="40" height="40"/>
           ..
 
-+Meus trabalhos: Nada de maneira empresarial, porém já realizei projetos particulares desde alterações de textos viua css, html ou por sistema em Lógica no javascripts até testes tdd e uso de ias generativas com o python tanto Gemini quanto ChatGpt desde aplicações simples como criação de estrutura de elaboração de questões para uso acadêmico até chatbot. Além disso já ultilizei e conheço o uso dos sistemas operacionais Linux e Windows e realizei automaçoes de teste E2E.
++Meus trabalhos: Nada de maneira empresarial, porém já realizei projetos particulares desde via css, html ou por sistema em Lógica no Javascripts até testes tdd e uso de ias generativas com o python tanto Gemini quanto ChatGpt desde aplicações simples como criação de estrutura de elaboração de questões para uso acadêmico até chatbot. Além disso já ultilizei e conheço o uso dos sistemas operacionais Linux e Windows e realizei automaçoes de teste E2E.
 
 +Prós de contratação: Sempre fui interessado no ramo de desenvolvimento, comecei a aprender lógica de programação aproximadamente quando tinha 14 anos e desde lá nunca parei de tentar me aprimorar de maneira profissional e pessoal, seja em busca de novos conceitos e aplicações até relações interperssoais com amigos e colegas.Além da pontualidade de horários.
 
-+Contras que preciso melhorar: Grande nível de anciedade, mas nada que trapalhe profissionalmente, mas presente devido a minha timidez. Além de foco exarcebado o quer por um lado aumenta minha proatividade, desfoco a hidratação. Pórem são pontos que já estou constantemente trabalhando para aprimorar.
++Contras que preciso melhorar: ansiedade, nada que me atrapalhe profissionalmente, porém presente devido a minha timidez. Além de foco exarcebado, o que por um lado aumenta minha proatividade. Pórem são pontos que já estou constantemente trabalhando para aprimorar.
 
 +Editor que utilizo:    
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" width="40" height="40"/>
@@ -48,7 +48,7 @@ Lingueagens trabalhadas:
 
 Name: Gianlucca Ávila Pache de Paiva
 
-Degree: Student at Universidade Federal de Juiz de Fora, majoring in Information Systems with intermediate English.
+Degree: Student at Universidade Federal de Juiz de Fora, majoring in Information Systems with advanced English.
 Languages worked: 
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" width="40" height="40" />,
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg"  width="40" height="40" />
