@@ -43,6 +43,9 @@ Linguagens trabalhadas:
 <a href="https://github.com/GianluccaPaiva">
 <img loading="lazy" height="180em" src="https://github-readme-stats.vercel.app/api?username=GianluccaPaiva&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
 </div>
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=GianluccaPaiva&layout=compact)
+
   
 ##𝗘𝗻𝗴𝗹𝗶𝘀𝗵 𝘃𝗲𝗿𝘀𝗶𝗼𝗻
 
