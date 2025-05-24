@@ -28,7 +28,7 @@ Linguagens trabalhadas:
 
 +Meus trabalhos: Nada de maneira empresarial, porém já realizei projetos particulares desde via css, html ou por sistema em Lógica no Javascripts até testes tdd e uso de ias generativas com o python tanto Gemini quanto ChatGpt desde aplicações simples como criação de estrutura de elaboração de questões para uso acadêmico até chatbot. Além disso já ultilizei e conheço o uso dos sistemas operacionais Linux e Windows e realizei automaçoes de teste E2E.
 
-+Prós de contratação: Sempre fui interessado no ramo de desenvolvimento, comecei a aprender lógica de programação aproximadamente quando tinha 14 anos e desde lá nunca parei de tentar me aprimorar de maneira profissional e pessoal, seja em busca de novos conceitos e aplicações até relações interperssoais com amigos e colegas.Além da pontualidade de horários.
++Prós de contratação: Sempre fui interessado no ramo de desenvolvimento, comecei a aprender lógica de programação aproximadamente quando tinha 14 anos e desde lá nunca parei de tentar me aprimorar de maneira profissional e pessoal, seja em busca de novos conceitos e aplicações até relações interpessoais com amigos e colegas.Além da pontualidade de horários.
 
 +Contras que preciso melhorar: ansiedade, nada que me atrapalhe profissionalmente, porém presente devido a minha timidez. Além de foco exarcebado, o que por um lado aumenta minha proatividade. Pórem são pontos que já estou constantemente trabalhando para aprimorar.
 
