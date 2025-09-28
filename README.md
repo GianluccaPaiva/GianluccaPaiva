@@ -13,7 +13,7 @@
 
 +Graduação: Estudante na Universidade Federa De Juiz de Fora graduando em Sistemas de Informção com inglês avançado.
 
-Linguagens trabalhadas:        
+Linguagens trabalhadas e frameworks:        
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" width="40" height="40" />,
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg"  width="40" height="40" />
           , 
@@ -52,7 +52,7 @@ Linguagens trabalhadas:
 Name: Gianlucca Ávila Pache de Paiva
 
 Degree: Student at Universidade Federal de Juiz de Fora, majoring in Information Systems with advanced English.
-Languages worked: 
+Languages worked and frameworks: 
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" width="40" height="40" />,
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg"  width="40" height="40" />
           , 
@@ -63,6 +63,10 @@ Languages worked:
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"   width="40" height="40"/>
             ,
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg"   width="40" height="40"/>
+            ,
+            
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg" width="40" height="40" />
+          
           ..
 
 
