@@ -14,7 +14,7 @@
 +Graduação: Estudante na Universidade Federa De Juiz de Fora graduando em Sistemas de Informção com inglês avançado.
 
 Linguagens trabalhadas e frameworks:        
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" width="40" height="40" />,
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" width="40" height="40" />,
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg"  width="40" height="40" />
           , 
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"  width="40" height="40" />
@@ -22,12 +22,20 @@ Linguagens trabalhadas e frameworks:
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"  width="40" height="40"/>
           , 
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"   width="40" height="40"/>
-        ,
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg"   width="40" height="40"/>
-        ,
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" width="40" height="40"/>
-          
+            ,
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg"   width="40" height="40"/>
+            ,
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg" width="40" height="40" />
+            ,
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" width="40" height="40" />
+            ,
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" width="40" height="40"/>
+            ,
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" width="40" height="40" />
+            ,
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg" width="40" height="40" />
           ..
+
 
 +Meus trabalhos: Nada de maneira empresarial, porém já realizei projetos particulares desde via css, html ou por sistema em Lógica no Javascripts até testes tdd e uso de ias generativas com o python tanto Gemini quanto ChatGpt desde aplicações simples como criação de estrutura de elaboração de questões para uso acadêmico até chatbot. Além disso já ultilizei e conheço o uso dos sistemas operacionais Linux e Windows e realizei automaçoes de teste E2E.
 
@@ -70,8 +78,12 @@ Languages worked and frameworks:
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg" width="40" height="40" />
             ,
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" width="40" height="40" />
-          
-          
+            ,
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" width="40" height="40"/>
+            ,
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" width="40" height="40" />
+            ,
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg" width="40" height="40" />
           ..
 
 
