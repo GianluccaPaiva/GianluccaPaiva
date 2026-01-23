@@ -13,7 +13,7 @@
 
 +Graduação: Estudante na Universidade Federa De Juiz de Fora graduando em Sistemas de Informção com inglês avançado.
 
-Linguagens trabalhadas e frameworks:        
+Linguagens trabalhadas, frameworks e SO:        
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" width="40" height="40" />,
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg"  width="40" height="40" />
           , 
