@@ -53,7 +53,7 @@ Linguagens trabalhadas, frameworks e SO:
 
 <img height="180" src="https://github-readme-streak-stats.herokuapp.com/?user=GianluccaPaiva&theme=dracula" />
 
-<div align="center">
+<div >
   <a href="https://github.com/GianluccaPaiva">
     <img height="180" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=GianluccaPaiva&layout=compact&theme=dracula&hide_border=true" />
   </a>
