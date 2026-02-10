@@ -50,8 +50,8 @@ Linguagens trabalhadas, frameworks e SO:
 
 +Projetos: O meu Github logo apresentará mais projetos
 
-<div>
+<div align="center">
   <a href="https://github.com/GianluccaPaiva">
-    <img loading="lazy" height="180em" src="https://github-readme-stats.vercel.app/api?username=GianluccaPaiva&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
-  </a> 
+    <img height="180" src="https://github-readme-stats.vercel.app/api?username=GianluccaPaiva&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
+  </a>
 </div>
