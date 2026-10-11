@@ -25,7 +25,7 @@
 
 Curso **Sistemas de Informação na Universidade Federal de Juiz de Fora (UFJF)** e programo desde os 14 anos. Meu foco é construir software bem estruturado: sistemas em **Java com orientação a objetos**, aplicações web com **React + TypeScript**, apps mobile com **React Native (Expo)** e ferramentas em **Python com IA** (Gemini, ChatGPT e reconhecimento de voz com Whisper).
 
-Também tenho experiência com **testes TDD**, **automação de testes E2E**, **Git** e ambientes **Linux e Windows**. Meus projetos estão públicos neste perfil, com histórico de commits que mostra como eu evoluo o código ao longo do tempo.
+Também tenho experiência com **testes TDD**, **automação de testes E2E**, **Git** e ambientes **Linux e Windows**. Desenvolvo o **NexusClass**, uma plataforma escolar com tutor de IA, e trabalho com a UFJF no app mobile do **Jardim Botânico**. Meus projetos estão públicos neste perfil, com histórico de commits que mostra como eu evoluo o código ao longo do tempo.
 
 ## 🎯 Em busca de
 
@@ -39,8 +39,8 @@ Também tenho experiência com **testes TDD**, **automação de testes E2E**, **
 <!--TECH:START-->
 | Área | Tecnologias |
 |---|---|
-| **Linguagens** | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![GDScript](https://img.shields.io/badge/GDScript-478CBF?style=flat-square&logo=godotengine&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![CSS](https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css3&logoColor=white) ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white) ![HTML](https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white) ![C#](https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=csharp&logoColor=white) ![GDShader](https://img.shields.io/badge/GDShader-555555?style=flat-square) |
-| **Frameworks e bibliotecas** | ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white) ![shadcn/ui](https://img.shields.io/badge/shadcn%2Fui-000000?style=flat-square&logo=shadcnui&logoColor=white) ![CustomTkinter](https://img.shields.io/badge/CustomTkinter-3776AB?style=flat-square&logo=python&logoColor=white) ![Expo](https://img.shields.io/badge/Expo-000020?style=flat-square&logo=expo&logoColor=white) ![Godot](https://img.shields.io/badge/Godot-478CBF?style=flat-square&logo=godotengine&logoColor=white) ![NativeWind](https://img.shields.io/badge/NativeWind-0F172A?style=flat-square&logo=tailwindcss&logoColor=38BDF8) ![React Native](https://img.shields.io/badge/React%20Native-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![Spring](https://img.shields.io/badge/Spring-6DB33F?style=flat-square&logo=spring&logoColor=white) ![Unity](https://img.shields.io/badge/Unity-000000?style=flat-square&logo=unity&logoColor=white) |
+| **Linguagens** | ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![C#](https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=csharp&logoColor=white) ![GDScript](https://img.shields.io/badge/GDScript-478CBF?style=flat-square&logo=godotengine&logoColor=white) ![CSS](https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![HTML](https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white) |
+| **Frameworks e bibliotecas** | ![shadcn/ui](https://img.shields.io/badge/shadcn%2Fui-000000?style=flat-square&logo=shadcnui&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white) ![CustomTkinter](https://img.shields.io/badge/CustomTkinter-3776AB?style=flat-square&logo=python&logoColor=white) ![Expo](https://img.shields.io/badge/Expo-000020?style=flat-square&logo=expo&logoColor=white) ![Godot](https://img.shields.io/badge/Godot-478CBF?style=flat-square&logo=godotengine&logoColor=white) ![NativeWind](https://img.shields.io/badge/NativeWind-0F172A?style=flat-square&logo=tailwindcss&logoColor=38BDF8) ![React Native](https://img.shields.io/badge/React%20Native-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![Unity](https://img.shields.io/badge/Unity-000000?style=flat-square&logo=unity&logoColor=white) |
 | **IA e dados** | ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white) ![Whisper](https://img.shields.io/badge/Whisper-412991?style=flat-square&logo=openai&logoColor=white) |
 | **Build e deploy** | ![Maven](https://img.shields.io/badge/Maven-C71A36?style=flat-square&logo=apachemaven&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white) ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white) |
 <!--TECH:END-->
@@ -56,9 +56,11 @@ _Tabela atualizada automaticamente a partir dos meus repositórios públicos: qu
 
 | Projeto | Tecnologias | O que demonstra |
 |---|---|---|
+| [**NexusClass**](https://github.com/NexusMindCorp/NexusClass) · [demo](https://nexus-class-two.vercel.app) | ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white) ![Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white) | Plataforma escolar completa: tutor de IA, entrega e correção de atividades, fórum, calendário com notificações e exclusão de conta (LGPD) |
+| [**App Jardim Botânico UFJF**](https://github.com/igorknop/jbufjf-mobile) | ![Mobile](https://img.shields.io/badge/Mobile-1F6FEB?style=flat-square) ![UFJF](https://img.shields.io/badge/Projeto_com_a-UFJF-2EA44F?style=flat-square) | Aplicativo mobile desenvolvido em parceria com a UFJF |
 | [**NexusBank**](https://github.com/GianluccaPaiva/Sistema_Gerencia_Investimentos_NexusTeam) | ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![Maven](https://img.shields.io/badge/Maven-C71A36?style=flat-square&logo=apachemaven&logoColor=white) | POO, polimorfismo, regras de negócio, CSV/JSON, exceções próprias, UML |
-| [**NexusClass Web**](https://github.com/GianluccaPaiva/NexusClass) · [demo](https://gianluccapaiva.github.io/ProjetoPilotoShadcn/) | ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white) | Front-end componentizado, temas claro/escuro, deploy automatizado |
 | [**NexusClass Mobile**](https://github.com/GianluccaPaiva/reactNative-expo-tailwind-ts-componentesProntos) | ![React Native](https://img.shields.io/badge/React_Native-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![Expo](https://img.shields.io/badge/Expo-000020?style=flat-square&logo=expo&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) | App mobile com NativeWind, hooks e componentes reutilizáveis |
+| [**NexusClass (protótipo)**](https://github.com/GianluccaPaiva/NexusClass) · [demo](https://gianluccapaiva.github.io/ProjetoPilotoShadcn/) | ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white) | Primeira versão web, com shadcn/ui, temas claro/escuro e deploy automatizado |
 | [**Agy-voice**](https://github.com/GianluccaPaiva/Agy-voice) | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) | IA de voz (Whisper), interface desktop, arquitetura em camadas |
 | [**HackWar**](https://github.com/GianluccaPaiva/hackwar) | ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white) | Motor de regras, validação de entradas e replay de partidas |
 | [**ProjetoExibeAtividade**](https://github.com/GianluccaPaiva/ProjetoExibeAtividade) · [demo](https://projeto-exibe-atividade.vercel.app) | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white) | Aplicação web publicada na Vercel |
@@ -66,6 +68,24 @@ _Tabela atualizada automaticamente a partir dos meus repositórios públicos: qu
 
 <details>
 <summary><b>Ver detalhes de cada projeto</b></summary>
+
+### 🎓 [NexusClass](https://github.com/NexusMindCorp/NexusClass) · [Demo online](https://nexus-class-two.vercel.app)
+**React 19 · TypeScript · Vite · Tailwind CSS 4 · shadcn/ui · Supabase · Google Gemini** &nbsp;·&nbsp; 350 commits
+
+Plataforma escolar de comunicação e gestão entre alunos, professores e administradores, desenvolvida em equipe na organização NexusMindCorp.
+
+- Painel de turmas e mural de avisos com anexos.
+- **Tigreso**, tutor de IA integrado ao Google Gemini.
+- Entrega de atividades com validação de prazo e correção com nota de 0 a 10 e feedback.
+- Fórum de dúvidas entre aluno e professor, com anexos e limpeza mensal das dúvidas resolvidas.
+- Calendário compartilhado com notificações 1 e 5 minutos antes dos eventos.
+- Exclusão de conta feita pelo próprio usuário, pensada para atender à LGPD/GDPR.
+- Back-end com Supabase (PostgreSQL, Storage e Edge Functions em Deno).
+
+### 🌿 [App Jardim Botânico UFJF](https://github.com/igorknop/jbufjf-mobile)
+**Mobile** <!-- Adicione aqui as tecnologias do app, ex.: React Native · Expo -->
+
+Trabalho com a UFJF no desenvolvimento do aplicativo mobile do Jardim Botânico. <!-- Adicione o que você faz no projeto, ex.: telas, integração com API, mapa -->
 
 ### 💼 [Sistema de Gerência de Investimentos (NexusBank)](https://github.com/GianluccaPaiva/Sistema_Gerencia_Investimentos_NexusTeam)
 **Java · POO · Maven · CSV · JSON · UML** &nbsp;·&nbsp; 107 commits
@@ -78,7 +98,7 @@ Plataforma de gestão de ativos e carteiras de investimentos em equipe.
 - Hierarquia de exceções personalizadas para entradas inválidas e falhas de leitura de arquivos.
 - Documentado com diagrama de classes.
 
-### 📚 [NexusClass Web](https://github.com/GianluccaPaiva/NexusClass) · [Demo online](https://gianluccapaiva.github.io/ProjetoPilotoShadcn/)
+### 📚 [NexusClass (protótipo educacional)](https://github.com/GianluccaPaiva/NexusClass) · [Demo online](https://gianluccapaiva.github.io/ProjetoPilotoShadcn/)
 **React 19 · TypeScript · Vite · Tailwind CSS 4 · shadcn/ui** &nbsp;·&nbsp; 104 commits
 
 Aplicação web educacional com mural, mensagens, calendário e pesquisa por turmas.
@@ -142,7 +162,7 @@ Também desenvolvi scripts que usam **Gemini** e **ChatGPT**, de um gerador de e
 
 - **Aprendizado contínuo:** estudo programação desde os 14 anos e sigo aprofundando conceitos técnicos e a visão de mercado.
 - **Proatividade e foco:** gosto de levar uma entrega até o fim e de buscar soluções por conta própria.
-- **Trabalho em equipe:** projetos em dupla e em grupo, com uso de Git e comunicação clara.
+- **Trabalho em equipe:** projetos em dupla e em grupo, incluindo um projeto real com a UFJF (app do Jardim Botânico), com uso de Git e comunicação clara.
 - **Pontualidade e comprometimento** com prazos.
 - **Inglês avançado** para ler documentação, trabalhar com times internacionais e acompanhar o ecossistema tech.
 
@@ -174,7 +194,7 @@ Conquistar um **estágio em desenvolvimento de software** para aplicar na práti
 
 **Gianlucca Ávila Pache de Paiva**, currently studying Information Systems at the Federal University of Juiz de Fora (UFJF), Brazil, with advanced English. I build software with **Java (OOP)**, **TypeScript/React**, **React Native (Expo)** and **Python** (generative AI with Gemini and ChatGPT, plus local speech recognition with Whisper), and I have experience with **TDD**, **E2E test automation**, **Git** and **Linux/Windows**.
 
-My portfolio includes an investment management system in Java (inheritance, polymorphism, CSV/JSON processing, custom exceptions), a React 19 + TypeScript web app deployed to GitHub Pages, a React Native mobile app, a voice interface for an AI agent in Python, a turn-based card game and two 2D games built with Unity and Godot.
+My portfolio includes an investment management system in Java (inheritance, polymorphism, CSV/JSON processing, custom exceptions), a React 19 + TypeScript web app deployed to GitHub Pages, a React Native mobile app, a voice interface for an AI agent in Python, a turn-based card game and two 2D games built with Unity and Godot. I am also building NexusClass, a school management platform with a Gemini-powered AI tutor (React, TypeScript, Supabase), and I work with UFJF on the mobile app for its Botanical Garden.
 
 **Currently looking for:** a software development internship.
 
