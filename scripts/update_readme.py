@@ -8,6 +8,9 @@ Como funciona:
      requirements.txt, project.godot, ProjectSettings, vercel.json, workflows...)
      para detectar frameworks, testes, IA e deploy.
   4. Reescreve tudo o que estiver entre <!--TECH:START--> e <!--TECH:END--> no README.
+  5. Se existirem os marcadores <!--STATS:START--> e <!--STATS:END-->, preenche também
+     os números do GitHub (projetos, commits em 12 meses, estrelas e % por linguagem),
+     sem depender de serviços externos de cards.
 
 Só usa a biblioteca padrão do Python. Variáveis de ambiente (todas opcionais):
   GH_USER       usuário do GitHub (padrão: GianluccaPaiva)
@@ -30,6 +33,7 @@ USER = os.environ.get("GH_USER", "GianluccaPaiva")
 TOKEN = os.environ.get("GITHUB_TOKEN", "")
 README = os.environ.get("README_PATH", "README.md")
 START, END = "<!--TECH:START-->", "<!--TECH:END-->"
+STATS_START, STATS_END = "<!--STATS:START-->", "<!--STATS:END-->"
 IGNORE_REPOS = {USER.lower()} | {
     r.strip().lower() for r in os.environ.get("IGNORE_REPOS", "").split(",") if r.strip()
 }
@@ -160,6 +164,37 @@ def api(path, raw=False):
     return body if raw else json.loads(body)
 
 
+def graphql(query, variables):
+    """POST na API GraphQL. Devolve None se não houver token ou se a chamada falhar."""
+    if not TOKEN:
+        return None
+    req = urllib.request.Request(
+        "https://api.github.com/graphql",
+        data=json.dumps({"query": query, "variables": variables}).encode(),
+        method="POST",
+    )
+    req.add_header("Authorization", "Bearer " + TOKEN)
+    req.add_header("User-Agent", "readme-tech-updater")
+    req.add_header("Content-Type", "application/json")
+    try:
+        with urllib.request.urlopen(req, timeout=30) as resp:
+            return json.loads(resp.read().decode("utf-8", "replace"))
+    except (urllib.error.URLError, ValueError):
+        return None
+
+
+def commits_last_year(gql):
+    """Commits públicos feitos pelo usuário nos últimos 12 meses (None se indisponível)."""
+    res = gql(
+        "query($login:String!){user(login:$login){contributionsCollection{totalCommitContributions}}}",
+        {"login": USER},
+    )
+    try:
+        return res["data"]["user"]["contributionsCollection"]["totalCommitContributions"]
+    except (TypeError, KeyError):
+        return None
+
+
 def list_repos(get):
     repos, page = [], 1
     while True:
@@ -220,7 +255,7 @@ def detect(repo, get):
 
 
 def collect(get):
-    lang_bytes, tech_count, used = Counter(), Counter(), []
+    lang_bytes, tech_count, used, stars = Counter(), Counter(), [], 0
     repos = list_repos(get)
     for spec in EXTRA_REPOS:
         extra = get(f"/repos/{spec}")
@@ -235,11 +270,12 @@ def collect(get):
             continue
         langs, techs = detect(repo, get)
         used.append(repo["full_name"])
+        stars += repo.get("stargazers_count", 0)
         for lang, size in langs.items():
             if lang not in IGNORE_LANGS:
                 lang_bytes[lang] += size
         tech_count.update(techs)
-    return lang_bytes, tech_count, used
+    return lang_bytes, tech_count, used, stars
 
 
 # ---------------------------------------------------------------------- render
@@ -264,14 +300,55 @@ def render(lang_bytes, tech_count):
     return "\n".join(lines)
 
 
-def update_readme(table):
+def stat_badge(label, value, color, logo=""):
+    esc = lambda x: quote(str(x).replace("-", "--").replace("_", "__"), safe="")
+    url = f"https://img.shields.io/badge/{esc(label)}-{esc(value)}-{color}?style=for-the-badge"
+    if logo:
+        url += f"&logo={logo}&logoColor=white"
+    return f"![{label}: {value}]({url})"
+
+
+def lang_percent_badge(name, pct):
+    logo, color, logo_color = ICONS.get(name, ("", "555555", "white"))
+    esc = lambda x: quote(str(x).replace("-", "--").replace("_", "__"), safe="")
+    url = f"https://img.shields.io/badge/{esc(name)}-{esc(str(pct) + '%')}-{color}?style=flat-square"
+    if logo:
+        url += f"&logo={logo}&logoColor={logo_color}"
+    return f"![{name}: {pct}%]({url})"
+
+
+def render_stats(lang_bytes, n_repos, stars, commits):
+    top = [stat_badge("Projetos públicos", n_repos, "1F6FEB", "github")]
+    if commits is not None:
+        top.append(stat_badge("Commits em 12 meses", commits, "2EA44F", "git"))
+    top.append(stat_badge("Estrelas recebidas", stars, "E3B341", "github"))
+    lines = ["<div align=\"center\">", "", " ".join(top), "", "</div>"]
+    total = sum(lang_bytes.values())
+    if total:
+        parts = [(lang, round(size * 100 / total)) for lang, size in lang_bytes.most_common(6)]
+        parts = [(lang, pct) for lang, pct in parts if pct >= 1]
+        if parts:
+            lines += ["", "**Linguagens mais usadas (por quantidade de código):** "
+                      + " ".join(lang_percent_badge(lang, pct) for lang, pct in parts)]
+    return "\n".join(lines)
+
+
+def replace_block(text, start, end, content):
+    pattern = re.compile(re.escape(start) + r".*?" + re.escape(end), re.DOTALL)
+    if not pattern.search(text):
+        return None
+    block = f"{start}\n{content}\n{end}"
+    return pattern.sub(lambda _m: block, text, count=1)
+
+
+def update_readme(table, stats=None):
     with open(README, encoding="utf-8") as fh:
         text = fh.read()
-    pattern = re.compile(re.escape(START) + r".*?" + re.escape(END), re.DOTALL)
-    if not pattern.search(text):
+    new_text = replace_block(text, START, END, table)
+    if new_text is None:
         sys.exit(f"Marcadores {START} e {END} não encontrados em {README}.")
-    new_block = f"{START}\n{table}\n{END}"
-    new_text = pattern.sub(lambda _m: new_block, text, count=1)
+    if stats is not None:
+        new_text = replace_block(new_text, STATS_START, STATS_END, stats) or new_text
     if new_text != text:
         with open(README, "w", encoding="utf-8") as fh:
             fh.write(new_text)
@@ -279,10 +356,11 @@ def update_readme(table):
 
 
 def main():
-    lang_bytes, tech_count, used = collect(api)
+    lang_bytes, tech_count, used, stars = collect(api)
     if not lang_bytes and not tech_count:
         sys.exit("Nenhuma tecnologia encontrada; README mantido sem alterações.")
-    changed = update_readme(render(lang_bytes, tech_count))
+    stats = render_stats(lang_bytes, len(used), stars, commits_last_year(graphql))
+    changed = update_readme(render(lang_bytes, tech_count), stats)
     print(f"{len(used)} repositórios analisados; README {'atualizado' if changed else 'já estava atualizado'}.")
 
 
