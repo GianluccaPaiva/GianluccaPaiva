@@ -14,6 +14,8 @@ Só usa a biblioteca padrão do Python. Variáveis de ambiente (todas opcionais)
   GITHUB_TOKEN  token para aumentar o limite da API (o Actions já fornece um)
   README_PATH   caminho do README (padrão: README.md)
   IGNORE_REPOS  nomes de repositórios a ignorar, separados por vírgula
+  EXTRA_REPOS   repositórios de outras contas/organizações em que você trabalha,
+                no formato dono/nome, separados por vírgula
 """
 import json
 import os
@@ -31,6 +33,14 @@ START, END = "<!--TECH:START-->", "<!--TECH:END-->"
 IGNORE_REPOS = {USER.lower()} | {
     r.strip().lower() for r in os.environ.get("IGNORE_REPOS", "").split(",") if r.strip()
 }
+# Projetos de outras contas ou organizações em que você participa (públicos).
+EXTRA_REPOS = [
+    r.strip()
+    for r in os.environ.get(
+        "EXTRA_REPOS", "NexusMindCorp/NexusClass,igorknop/jbufjf-mobile"
+    ).split(",")
+    if r.strip()
+]
 # Linguagens que o GitHub detecta, mas que não representam uma habilidade a destacar.
 IGNORE_LANGS = {"ShaderLab", "HLSL", "Batchfile", "PowerShell", "Shell", "Makefile", "Dockerfile"}
 
@@ -89,6 +99,7 @@ ICONS = {
     "GitHub Actions": ("githubactions", "2088FF", "white"),
     "Vercel": ("vercel", "000000", "white"),
     "Docker": ("docker", "2496ED", "white"),
+    "Supabase": ("supabase", "3FCF8E", "white"),
 }
 
 CATEGORY = {}
@@ -99,7 +110,7 @@ for _n in ("Gemini", "OpenAI", "Whisper", "NumPy", "Pandas", "TensorFlow", "PyTo
     CATEGORY[_n] = "IA e dados"
 for _n in ("JUnit", "Jest", "Vitest", "Cypress", "Playwright", "Selenium", "Pytest"):
     CATEGORY[_n] = "Testes e automação"
-for _n in ("Maven", "GitHub Actions", "Vercel", "Docker"):
+for _n in ("Maven", "GitHub Actions", "Vercel", "Docker", "Supabase"):
     CATEGORY[_n] = "Build e deploy"
 ORDER = ["Linguagens", "Frameworks e bibliotecas", "IA e dados", "Testes e automação", "Build e deploy"]
 
@@ -109,6 +120,9 @@ NPM = {
     "jest": "Jest", "vitest": "Vitest", "cypress": "Cypress",
     "playwright": "Playwright", "@playwright/test": "Playwright",
     "selenium-webdriver": "Selenium",
+    "@supabase/supabase-js": "Supabase",
+    "@google/genai": "Gemini", "@google/generative-ai": "Gemini",
+    "openai": "OpenAI",
 }
 PIP = {
     "pytest": "Pytest", "selenium": "Selenium", "playwright": "Playwright",
@@ -124,7 +138,7 @@ TOPICS = {
     "fastapi": "FastAPI", "flask": "Flask", "django": "Django", "docker": "Docker",
     "junit": "JUnit", "jest": "Jest", "vitest": "Vitest", "cypress": "Cypress",
     "playwright": "Playwright", "selenium": "Selenium", "pytest": "Pytest",
-    "gemini": "Gemini", "openai": "OpenAI", "maven": "Maven",
+    "gemini": "Gemini", "openai": "OpenAI", "maven": "Maven", "supabase": "Supabase",
 }
 
 
@@ -159,8 +173,7 @@ def list_repos(get):
 # --------------------------------------------------------------------- detecção
 def detect(repo, get):
     """Devolve (bytes por linguagem, conjunto de tecnologias) de um repositório."""
-    name = repo["name"]
-    base = f"/repos/{USER}/{name}"
+    base = f"/repos/{repo['full_name']}"
     techs = {TOPICS[t] for t in repo.get("topics", []) if t in TOPICS}
     langs = get(f"{base}/languages") or {}
 
@@ -191,6 +204,8 @@ def detect(repo, get):
                 pkg_name = re.split(r"[=<>~!\[;\s]", line.strip().lower(), maxsplit=1)[0]
                 if pkg_name in PIP:
                     techs.add(PIP[pkg_name])
+    if files.get("supabase") == "dir":
+        techs.add("Supabase")
     if "project.godot" in files:
         techs.add("Godot")
     if files.get("ProjectSettings") == "dir":
@@ -206,11 +221,20 @@ def detect(repo, get):
 
 def collect(get):
     lang_bytes, tech_count, used = Counter(), Counter(), []
-    for repo in list_repos(get):
+    repos = list_repos(get)
+    for spec in EXTRA_REPOS:
+        extra = get(f"/repos/{spec}")
+        if extra:  # None se o repositório for privado ou não existir
+            repos.append(extra)
+    seen = set()
+    for repo in repos:
+        if repo["full_name"].lower() in seen:
+            continue
+        seen.add(repo["full_name"].lower())
         if repo.get("fork") or repo.get("archived") or repo["name"].lower() in IGNORE_REPOS:
             continue
         langs, techs = detect(repo, get)
-        used.append(repo["name"])
+        used.append(repo["full_name"])
         for lang, size in langs.items():
             if lang not in IGNORE_LANGS:
                 lang_bytes[lang] += size
