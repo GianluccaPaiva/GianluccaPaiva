@@ -179,14 +179,10 @@ Conquistar um **estágio em desenvolvimento de software** para aplicar na práti
 
 ## 📊 GitHub em números
 
-<div align="center">
-  <a href="https://github.com/GianluccaPaiva">
-    <img height="180" alt="Estatísticas de GianluccaPaiva no GitHub" src="https://github-readme-stats-sigma-five.vercel.app/api?username=GianluccaPaiva&show_icons=true&theme=dracula&hide_border=true" />
-    <img height="180" alt="Linguagens mais usadas por GianluccaPaiva no GitHub" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=GianluccaPaiva&layout=compact&theme=dracula&hide_border=true" />
-  </a>
-  <br />
-  <img width="100%" alt="Gráfico de atividade de contribuições de GianluccaPaiva" src="https://github-readme-activity-graph.vercel.app/graph?username=GianluccaPaiva&theme=dracula&hide_border=true&area=true" />
-</div>
+<!-- Não edite entre os marcadores: o GitHub Actions preenche este bloco todo dia. -->
+<!--STATS:START-->
+_Os números abaixo são gerados automaticamente pelo GitHub Actions._
+<!--STATS:END-->
 
 ---
 
