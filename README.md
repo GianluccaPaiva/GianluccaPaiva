@@ -184,7 +184,7 @@ Conquistar um **estágio em desenvolvimento de software** para aplicar na práti
 <!--STATS:START-->
 <div align="center">
 
-![Projetos públicos: 26](https://img.shields.io/badge/Projetos%20p%C3%BAblicos-26-1F6FEB?style=for-the-badge&logo=github&logoColor=white) ![Commits em 12 meses: 946](https://img.shields.io/badge/Commits%20em%2012%20meses-946-2EA44F?style=for-the-badge&logo=git&logoColor=white) ![Estrelas recebidas: 17](https://img.shields.io/badge/Estrelas%20recebidas-17-E3B341?style=for-the-badge&logo=github&logoColor=white)
+![Projetos públicos: 26](https://img.shields.io/badge/Projetos%20p%C3%BAblicos-26-1F6FEB?style=for-the-badge&logo=github&logoColor=white) ![Commits em 12 meses: 936](https://img.shields.io/badge/Commits%20em%2012%20meses-936-2EA44F?style=for-the-badge&logo=git&logoColor=white) ![Estrelas recebidas: 17](https://img.shields.io/badge/Estrelas%20recebidas-17-E3B341?style=for-the-badge&logo=github&logoColor=white)
 
 </div>
 
