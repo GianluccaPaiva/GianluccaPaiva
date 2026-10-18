@@ -184,11 +184,11 @@ Conquistar um **estágio em desenvolvimento de software** para aplicar na práti
 <!--STATS:START-->
 <div align="center">
 
-![Projetos públicos: 26](https://img.shields.io/badge/Projetos%20p%C3%BAblicos-26-1F6FEB?style=for-the-badge&logo=github&logoColor=white) ![Commits em 12 meses: 936](https://img.shields.io/badge/Commits%20em%2012%20meses-936-2EA44F?style=for-the-badge&logo=git&logoColor=white) ![Estrelas recebidas: 17](https://img.shields.io/badge/Estrelas%20recebidas-17-E3B341?style=for-the-badge&logo=github&logoColor=white)
+![Projetos públicos: 26](https://img.shields.io/badge/Projetos%20p%C3%BAblicos-26-1F6FEB?style=for-the-badge&logo=github&logoColor=white) ![Commits em 12 meses: 938](https://img.shields.io/badge/Commits%20em%2012%20meses-938-2EA44F?style=for-the-badge&logo=git&logoColor=white) ![Estrelas recebidas: 17](https://img.shields.io/badge/Estrelas%20recebidas-17-E3B341?style=for-the-badge&logo=github&logoColor=white)
 
 </div>
 
-**Linguagens mais usadas (por quantidade de código):** ![TypeScript: 57%](https://img.shields.io/badge/TypeScript-57%25-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Java: 14%](https://img.shields.io/badge/Java-14%25-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![Python: 9%](https://img.shields.io/badge/Python-9%25-3776AB?style=flat-square&logo=python&logoColor=white) ![GDScript: 5%](https://img.shields.io/badge/GDScript-5%25-478CBF?style=flat-square&logo=godotengine&logoColor=white) ![CSS: 4%](https://img.shields.io/badge/CSS-4%25-1572B6?style=flat-square&logo=css3&logoColor=white) ![JavaScript: 4%](https://img.shields.io/badge/JavaScript-4%25-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+**Linguagens mais usadas (por quantidade de código):** ![TypeScript: 57%](https://img.shields.io/badge/TypeScript-57%25-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Java: 14%](https://img.shields.io/badge/Java-14%25-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![Python: 9%](https://img.shields.io/badge/Python-9%25-3776AB?style=flat-square&logo=python&logoColor=white) ![GDScript: 4%](https://img.shields.io/badge/GDScript-4%25-478CBF?style=flat-square&logo=godotengine&logoColor=white) ![CSS: 4%](https://img.shields.io/badge/CSS-4%25-1572B6?style=flat-square&logo=css3&logoColor=white) ![JavaScript: 4%](https://img.shields.io/badge/JavaScript-4%25-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 <!--STATS:END-->
 
 ---
